@@ -72,7 +72,7 @@ fitness_fee smallint default 20,
 
 --fake users data
 
-insert into users (user_name, user_email, user_password) values ('Jacob', 'jacob@gmail.com', 'kthl8822');
+insert into admins (admin_email, admin_password) values ('admin@gmail.com', 'admin123');
 
 --fake todos data
 
